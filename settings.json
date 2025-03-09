@@ -1,0 +1,67 @@
+{
+    "window.commandCenter": false,
+
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Pitch Black",
+    "workbench.editor.labelFormat": "short",
+    "workbench.sideBar.location": "left",
+    "workbench.editor.tabSizing": "shrink",
+
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "block",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.guides.bracketPairs": true,
+    "editor.rulers": [100],
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+
+    "explorer.compactFolders": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.autoReveal": true,
+
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
+    "git.confirmSync": false,
+    "git.autofetch": true,
+
+    "files.autoSave": "afterDelay",
+
+    "files.associations": {
+        "*.sqlbook": "sql",
+        "*.ndjson": "jsonl",
+        "*.dbclient-js": "javascript",
+        "*.env.*": "dotenv"
+    },
+
+    "symbols.files.associations": {
+        ".env.example": "gear"
+    },
+
+    "breadcrumbs.enabled": false,
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.fixAll": ["source.unusedImports"],  
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.cache": true,
+        "**/.coverage": true,
+        "**/.coverage.*": true,
+        "**/.hypothesis": true,
+        "**/.mypy_cache": true,
+        "**/.nox": true,
+        "**/.pytest_cache": true,
+        "**/.ruff_cache": true,
+        "**/.tox": true
+    }
+}
